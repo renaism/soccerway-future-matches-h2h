@@ -32,9 +32,6 @@ $("#calculate_h2h_percentage").click(function() {
     var $stat = $table.find("tbody"); // The part of the table that display the stats
 
     // Get the general data
-    //var teamA = $table.find("thead tr.group-head th:eq(1) a").text(); // Get the first team name (team A)
-    //var teamB = $table.find("thead tr.group-head th:eq(2) a").text(); // Get the second team name (team B)
-
     var teamA = $("div.logo-wrapper.left a").text(); // Get the first team name (team A)
     var teamB = $("div.logo-wrapper.right a").text(); // Get the second team name (team B)
 
